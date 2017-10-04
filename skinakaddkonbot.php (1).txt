@@ -40,7 +40,7 @@ $fm = $update->callback_query->from->id;
 $data = $update->callback_query->data;
 $messageid = $update->callback_query->message->message_id;
 $token = API_KEY;
-$userchanel = skinakir;
+$userchanel = Usx59;
 $forchaneel = json_decode(file_get_contents("https://api.telegram.org/bot".$token."/getChatMember?chat_id=@".$userchanel."&user_id=".$from_id));
 $tch = $forchaneel->result->status;
 $stat = file_get_contents("https://api.telegram.org/bot$token/getChatMember?chat_id=$chat_id&user_id=".$from_id);
